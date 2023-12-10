@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // function sumbitform() {
+    //   var i = document.getElementById("myImage");
+    //   if (image.src.match("bulbon")) {
+    //     image.src = "pic_bulboff.gif";
+    //   } else {
+    //     image.src = "pic_bulbon.gif";
+    //   }
+    // }
+    </script>
+</head>
+<body>
+  <h1>Contact Page</h1>
+  <h3>Input Your Details Here</h3>
+  <fieldset>
+    <legend>Personal Information</legend>
+  <form action="register" method="post">
+    <P>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Your First Name" >
+    </P>
+    <p>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Your Last Name">
+    </p>
+    <p>
+      <p>Gender</p>
+      <label for="gender" name="male">Male</label>
+      <input type="radio" name="gender" id="male">
+      <label for="gender" name="female">Female</label>
+      <input type="radio" name="gender" id="female">
+    </p>
+    <p>
+    <label for="Number">Phone Number:</label><br>
+    <input type="intiger" id="number" name="number" placeholder="Your Phone Number"  required id ="number">
+    </p>
+    <p>
+    <label for="Email">Email Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="Your Email"  required id ="mail">
+    </p>
+    <div>
+      <label for="hobbies">Select Your Hobbies</label>
+    </div>
+    <div class="hobbies">
+      <span>Hobbies</span>
+      <select id="hobbies" name="hobbies">
+        <!-- <optgroup>
+          <option value=""></option>
+        </optgroup> -->
+        <option value ="dance">Dance</option>
+        <option value ="sing">Sing</option>
+        <option selected value ="read">Read</option>
+      </select>
+    </div><br>
+    <div>
+    <button class="" id="submit" type="submit" onclick="return alert('Message sent sucessfuly')">Send Message</button>
+    <button ><a href="index.html">Back</a></button>
+    </div>
+  </form>
+</fieldset>
+  <!-- <dialog open>Your data is Submitted</dialog> -->
+</body>
+</html>

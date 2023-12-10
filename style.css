@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #524f4f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #a01414;
+}
+
+table.one {
+  border: solid 1px #d8d8d8;
+        border-left: 0;
+        border-right: 0;
+        white-space: nowrap;
+  color: #f7f5f5;
+  background-color: #2b2d2c;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.active {
+  background-color: #04AA6D;
+}
