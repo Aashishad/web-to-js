@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin:0; padding:0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .container{
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+
+    .container .image-container{
+      position: relative;
+      height: auto;
+      width: 90%;
+      margin: auto;
+      padding: 45px 0;
+      display: grid;
+      masonry-auto-flow: ;
+      colu
+    }
+
+    .container .image-container img{
+      position: relative;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .container .image-container img:first-child{
+      grid-column-start: span 2;
+      grid-row-start: span 3;
+    }
+    .container .image-container img:nth-child(2n+1){
+      grid-row-start: span 3;
+    }
+    .container .image-container img:nth-child(2n+3){
+      grid-row-start: span 2;
+      grid-column-start: span 2;
+    }
+    .container .image-container img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+     
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-container">
+        <img src="/assets/images/img1.jpg" alt="">
+        <img src="/assets/images/img2.jpg" alt="">
+        <img src="/assets/images/img3.jpg" alt="">
+        <img src="/assets/images/img4.jpg" alt="">
+        <img src="/assets/images/img5.jpg" alt="">
+        <img src="/assets/images/img6.jpg" alt="">
+        <img src="/assets/images/img7.jpg" alt="">
+        <img src="/assets/images/img8.jpg" alt="">
+        <img src="/assets/images/img9.jpg" alt="">
+        <img src="/assets/images/img10.jpg" alt="">       
+    </div>
+
+</div>
+
+</body>
+</html>

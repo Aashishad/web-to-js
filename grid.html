@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* .wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 100px;
+    }
+
+    .box1 {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+
+    .box2 {
+      grid-column-start: 1;
+      grid-row-start: 3;
+      grid-row-end: 5;
+    }
+
+    .wrapper > div{
+      border: 1px solid black;
+    } */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 10px;
+      }
+
+      .bx {
+
+        max-width: 410px;
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        
+        /* grid-template-rows: 1fr 2fr; */
+
+      }
+
+      .bx1 {
+        background-color: red;
+        height: 200px;
+      }
+
+      .bx2 {
+        background-color: goldenrod;
+
+      }
+
+      .bx3 {
+        background-color: purple;
+;
+      }
+
+      .bx4 {
+        background-color: chocolate;
+
+      }
+
+      .bx5 {
+        background-color: rgb(9, 255, 0);
+
+      }
+
+  </style>
+</head>
+<body>
+  <!-- <div class="wrapper">
+    <div class="box1">One</div>
+    <div class="box2">Two</div>
+    <div class="box3">Three</div>
+    <div class="box4">Four</div>
+    <div class="box5">Five</div>
+  </div> -->
+
+  <div class="bx ">
+
+    <div class="bx1 b">
+      <p>Box1</p>
+    </div>
+    <div class="bx2 b">
+      <p>Box2</p>
+    </div>
+    <div class="bx3 b">
+      <p>Box3</p>
+    </div>
+    <div class="bx4 b">
+      <p>Box4</p>
+    </div>
+    <div class="bx5 b">
+      <p>Box5</p>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
